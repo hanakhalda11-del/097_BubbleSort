@@ -55,5 +55,5 @@ void bubbleSortArray()
         }
         cout << endl;
 
-    } 
+    } while (pass <= n - 1);
 }
