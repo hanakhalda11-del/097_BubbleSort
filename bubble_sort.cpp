@@ -53,6 +53,7 @@ void bubbleSortArray()
         {
             cout << arr[k] << " ";
         }
-    }
-    
+        cout << endl;
+
+    } 
 }
