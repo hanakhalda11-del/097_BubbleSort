@@ -66,8 +66,8 @@ void display()
     cout << endl;
     for (int j = 0; j < n; j++)
     {
-        cout << arr[k];
-        if (j < n)
+        cout << arr[j];
+        if (j < n - 1)
         {
             cout << " --> ";
         }
@@ -78,4 +78,15 @@ void display()
     cout << "Jumlah pass = " << n - 1 << endl;
     cout << endl;
     cout << endl;
+}
+
+int main()
+{
+    input();
+
+    bubbleSortArray();
+    display();
+
+    system("pause");
+    return 0;
 }
